@@ -10,7 +10,7 @@
       "description": "Handle your shopping list",
       "name": "ShoppingList",
       "short_name": "List",
-      "start_url": "http://firrin.github.io/PWA-shoppinglist/",
+      "start_url": "https://firrin.github.io/PWA-shoppinglist/index.html",
       "display": "fullscreen"
 }
 
