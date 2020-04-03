@@ -1,0 +1,60 @@
+
+li{
+    list-style-type: none;
+    background-color: #396884;
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 25px;
+}
+span{
+    font-size: 26px;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+input[type="text"]{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: none;
+    display: block;
+    border-bottom: 0.3rem solid transparent;
+    transition: all 0.3s;
+    text-align: center;
+}
+.list{
+  display: flex;
+    justify-content: space-evenly;
+    margin-right:40px
+
+}
+form{
+    justify-items: center;
+    text-align: center;
+}
+#clear{
+    display: block;
+    margin: 0 auto;
+}
+body{
+    background-color: #1d2d47;
+}
+button{
+    padding:0.2em 1.45em;
+    margin:0.1em;
+    border:0.15em solid #CCCCCC;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Segoe UI','Roboto',sans-serif;
+    font-weight:400;
+    color:#000000;
+    background-color:#CCCCCC;
+    text-align:center;
+}
+button[type="submit"]{
+    margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PWAProject</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.webmanifest">
+    <meta name="theme-color">
+</head>
+<body>
+<div class="container">
+<h1 id="title">Shoppinglist</h1>
+
+
+<!--
+<input type="text" id="user_input">
+<input type="button" onclick="addItem()" id="add" value="Add New item">
+<input type="button" onclick="removeItem()" id="remove" value="remove item">
+<ol id="list_item">
+
+</ol>
+
+
+<ul id="list"></ul>
+
+<input type="text" id="input"/>
+<button onclick="addItem()">add item</button>
+<button onclick="removeItem()">remove item</button>
+-->
+<form class="" action="index.html" method="post">
+    <input type="text" placeholder="new task" name="task">
+    <button class="button"  type="submit"><strong>ADD</strong></button>
+</form>
+<div class="list">
+    <ul>
+        <li><span class="remove">×</span><input type="checkbox"><label>Chicken</label></li>
+        <li><span class="remove">×</span><input type="checkbox"><label>Vegetables</label></li>
+        <li><span class="remove">×</span><input type="checkbox"><label>Milk</label></li>
+        <li><span class="remove">×</span><input type="checkbox"><label>Sugar</label></li>
+    </ul>
+
+</div>
+<button id="clear" type="submit" onclick="clearstorage()">Clear shopping list</button>
+</div>
+<script src="app.js"></script>
+<script>if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+        });
+    });
+}</script>
+<script src="sw.js"></script>
+</body>
+</html>

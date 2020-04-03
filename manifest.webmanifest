@@ -1,0 +1,19 @@
+{
+  "icons": [
+    {
+      "src": "192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+    ],
+      "background_color": "grey",
+      "description": "Handle your shopping list",
+      "name": "ShoppingList",
+      "short_name": "List",
+      "start_url": "http://localhost:63342/Pwaproject/index.html",
+      "display": "fullscreen"
+}
+
+
+
+
